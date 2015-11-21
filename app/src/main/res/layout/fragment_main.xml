@@ -18,6 +18,7 @@
     android:padding="10dp"
     android:textColor="#FF4081"
     android:layout_marginBottom="10dp"
+    android:textSize="25dp"
     android:theme="@style/AppTheme"/>
 
     <ListView

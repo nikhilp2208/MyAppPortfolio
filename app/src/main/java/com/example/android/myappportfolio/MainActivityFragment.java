@@ -40,7 +40,7 @@ public class MainActivityFragment extends Fragment {
 //            @Override
 //            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
 //                String text = mArrayAdapter.getItem(position);
-//                Toast.makeText(getActivity(), text, Toast.LENGTH_LONG);
+//                Toast.makeText(getActivity(), text, Toast.LENGTH_LONG).show();
 //            }
 //        });
 
@@ -50,7 +50,7 @@ public class MainActivityFragment extends Fragment {
 //            public void onClick(View view) {
 //                Button appButton = (Button) view;
 //                String text = appButton.getText().toString();
-//                Toast.makeText(getActivity(),text,Toast.LENGTH_LONG);
+//                Toast.makeText(getActivity(),text,Toast.LENGTH_LONG).show();
 //            }
 //        });
         return rootView;
