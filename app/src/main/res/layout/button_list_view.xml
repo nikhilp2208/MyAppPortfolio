@@ -3,8 +3,8 @@
     android:id="@+id/my_apps_button"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#3949AB"
-    android:textColor="#FFFFFF"
+    android:background="@color/colorButton"
+    android:textColor="@color/colorButtonText"
     android:height="36dp"
     android:onClick="toastMessage">
 </Button>
